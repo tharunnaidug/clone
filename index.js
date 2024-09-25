@@ -8,7 +8,7 @@ const port=3000;
 dotenv.config();
 app.use(express.urlencoded({ extended: 'false' }))
 app.use(cors({
-    "origin": "http://localhost:5173",
+    "origin": "https://uucmskarnataka.github.io/uucms.karnataka/",
     credentials:true
 }))
 
